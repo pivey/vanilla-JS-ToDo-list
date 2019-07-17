@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <title>Peter's ToDo List</title>
+  <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script src="./js/todo.js" defer></script>
+</head>
+
+<body>
+  <div id="top-section">
+    <h1>To Do List</h1>
+
+    <form autocomplete="off" id="to-do-form" action="">
+      <div class="form-el">
+        <div class="form-name">Title:</div>
+        <input autocomplete="off" class="to-do-input" onfocus="this.value=''" id="input-title" type="text"
+          placeholder="Task Title" />
+      </div>
+      <div class="form-el">
+        <div class="form-name">Description:</div>
+        <input autocomplete="off" class="to-do-input" onfocus="this.value=''" id="input-description" type="text"
+          placeholder="Task Description" />
+      </div>
+      <div class="form-el">
+        <div class="form-name">Finish date:</div>
+        <input autocomplete="off" class="to-do-input" onfocus="this.value=''" id="input-deadline" type="text"
+          placeholder="XX/XX/XXXX" />
+      </div>
+      <div id="button-holder">
+        <div class="container">
+          <input class="btn-default" id="task-submit-button" type="submit" value="Add Task" />
+        </div>
+        <div class="container">
+          <button class="btn-default" id="clear-all">Clear All Tasks</button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <div id="list-container">
+    <ul id="item-list">
+  </div>
+  </ul>
+
+</body>
+
+</html>

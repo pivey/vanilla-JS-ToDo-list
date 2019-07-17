@@ -1,0 +1,149 @@
+/* Module — These are the reusable modular components of a design */
+
+* {
+  box-sizing: border-box;
+}
+
+.form-el {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.form-name {
+  text-align: left;
+  width: 30%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+
+  width: 100vw;
+  text-decoration: underline;
+}
+
+#task-submit-button {
+  width: 8.5rem;
+}
+
+#clear-all {
+  width: 100%;
+}
+
+input {
+  text-align: center;
+  margin: 15px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-el>input {
+  width: 60%;
+  background-color: #FCE746;
+}
+
+#to-do-form {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-between;
+  padding: 20px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+#to-do-form .container {
+  font-size: 0.7rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+li>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 20vh;
+  width: 70vw;
+  padding: 5px;
+  background-color: #FF9319;
+  margin: 15px 20px;
+  border-radius: 10px;
+  border: 5px solid #EF5F00;
+  -moz-box-shadow: .5px 1px 1px 2px grey;
+  -webkit-box-shadow: .5px 1px 1px 2px grey;
+  box-shadow: .5px 1px 1px 2px #008148;
+}
+
+li>div>p {
+  margin: 0px;
+  margin: 10px 0px 0px 20px;
+}
+
+li>div>button {
+  background-color: #034732;
+  color: #98DB3B;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 8px 18px;
+  border-radius: 5px;
+}
+
+#item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  padding: 0px;
+  margin-top: 7%;
+}
+
+#item-list::last-child {
+  margin-bottom: 200px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.2;
+  filter: alpha(opacity=40);
+  background-color: grey;
+  order: 2;
+}
+
+li.done {
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeBtn {
+    align-self: flex-end;
+    font-size: 0.6rem;
+    color: white;
+    padding: 5px;
+  }
+
+  .container {
+    max-width: 960px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

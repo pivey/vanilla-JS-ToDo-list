@@ -1,0 +1,40 @@
+/* State — These describe how things look when in a particular state (hidden or expanded, active/inactive) */
+
+input:focus {
+    outline: none;
+  }
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  input:focus:-moz-placeholder {
+    color: transparent;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  li>div:hover {
+    box-shadow: 0 0 25px #19381F;
+  }
+
+  li.done::before {
+    transform: rotate(-.05turn);
+    content: 'Done';
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2px 20px;
+    position: absolute;
+    border: 4px solid #EF5F00;
+  }
+
+  .removeBtn:hover {
+    color: #98DB3B;
+  }
+
+  .btn-default:hover {
+    background: #034732;
+    color: white;
+  }
