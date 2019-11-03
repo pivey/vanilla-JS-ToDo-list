@@ -5,5 +5,4 @@ Additions for the future:
 - redo this project using React or vue
 - add Yup validation for the front end to validate input from users
 - use a JSON server database / mongoDB to store state so not to rely on local storage. 
-
-
+- clean up and optimize so that there are no bugs 
