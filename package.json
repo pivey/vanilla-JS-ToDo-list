@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server --port 3005",
+    "lite": "lite-server --port",
     "start": "npm run lite"
   },
   "repository": {
