@@ -1,3 +1,6 @@
+Have a play around and see what you think: 
+https://pivey.github.io/vanilla-JS-ToDo-list/
+
 A vanilla JS toDo list project using local storage for state management to allow me to develop my understanding of pure JS and play with some basic CSS styles and conventions such as BEM and SMACSS. 
 
 Additions for the future: 
